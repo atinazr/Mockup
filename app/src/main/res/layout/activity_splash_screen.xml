@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#109ABF"
-    tools:context=".SplashScreen">
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/sentiment_a"
@@ -43,14 +43,20 @@
         android:src="@drawable/toko"
         android:layout_width="500dp"
         android:layout_height="300dp"
-        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/online_mark"
         android:layout_marginLeft="0dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="220dp"
         />
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="328dp"
+        android:layout_height="12dp"
+        android:layout_below="@+id/store"
+        android:src="@drawable/loading"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="100dp"
+        />
+
 
 
 </RelativeLayout>
