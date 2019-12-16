@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#109ABF"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:id="@+id/sentiment_a"
+        android:layout_width="622dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="0sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="SENTIMENT ANALYSIS"
+        android:textColor="#FFFFFF"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/online_mark"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/sentiment_a"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="0dp"
+        android:textSize="20sp"
+        android:layout_marginTop="130dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="0sp"
+        android:textColor="#FFFFFF"
+        android:text="Online Marketplace in Indonesia"
+        android:textAppearance="@style/Widget.AppCompat.ListView" />
+
+    <ImageView
+        android:id="@+id/store"
+        android:src="@drawable/toko"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+</RelativeLayout>
